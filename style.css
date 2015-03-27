@@ -112,3 +112,12 @@ p {
     padding:0px;
     max-width: 100%;
 }
+
+@media screen and (max-width: 500px) {
+	/* applies only if the screen is narrower than 500px */
+	font-size: medium;
+	#body
+	{
+		margin: 0;
+	}
+}
