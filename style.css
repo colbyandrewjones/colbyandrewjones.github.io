@@ -16,7 +16,7 @@ h1 {
 p {
 	text-align: center;
 	font: arial;
-	
+	word-wrap: break-word;
 }
 
 #holder{		/* make footer stay at bottom of content or bottom of page, whichever comes last*/
