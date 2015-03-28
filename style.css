@@ -1,5 +1,5 @@
 html, body {
-	background-color: #ffffff;
+	background-color: #1F6ACB;
 	padding: 0;
 	margin: 0;
 	height: 100%; 	/* make footer stay at bottom of content or bottom of page, whichever comes last*/
@@ -17,6 +17,7 @@ p {
 	text-align: center;
 	font: arial;
 	font-size: medium;
+	font-color: #000000;
 	word-wrap: break-word;
 }
 
