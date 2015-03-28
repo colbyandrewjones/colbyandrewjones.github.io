@@ -114,7 +114,7 @@ p {
     max-width: 100%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
 	/* applies only if the screen is narrower than 500px */
 	#body
 	{
