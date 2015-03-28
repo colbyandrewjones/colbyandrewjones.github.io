@@ -116,7 +116,6 @@ p {
 
 @media screen and (max-width: 500px) {
 	/* applies only if the screen is narrower than 500px */
-	font-size: medium;
 	#body
 	{
 		margin-left: 0%;
