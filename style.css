@@ -54,6 +54,8 @@ p {
 #navcontainer ul li {
 	display: inline;
 	font: arial;
+	height: 100%;
+	width: 100%;
 	
 }
 
@@ -63,7 +65,8 @@ p {
 	padding: .2em 1em;
 	color: #ffffff;
 	font: arial;
-	
+	height: 100%;
+	width: 100%;
 
 }
 
@@ -72,6 +75,7 @@ p {
 	color: #ffffff;
 	background-color: #1F6ACB;
 	height: 100%;
+	width: 100%;
 	font: arial;
 	
 	
