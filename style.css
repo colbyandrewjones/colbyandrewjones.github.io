@@ -89,6 +89,7 @@ p {
 }
 #footer {
   clear: both;
+  background-color: #4183D7;
 }
 /*** IE6 Fix ***/
 * html #left {
