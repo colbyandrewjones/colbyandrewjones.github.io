@@ -80,7 +80,7 @@ p {
 }
 #left {
   width: 400px;          /* LC width */
-  right: 200px;          /* LC width */
+  /*right: 200px; */         /* LC width */
   margin-left: -100%;
 }
 #right {
