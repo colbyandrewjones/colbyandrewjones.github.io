@@ -90,6 +90,7 @@ p {
 	background-color: #ffffff;
 	padding-bottom: 100px; /* #footer height */ 	/* make footer stay at bottom of content or bottom of page, whichever comes last*/	height: 100%;
 	float: left;
+	width: 100%;
 }
 
 #footer
