@@ -85,7 +85,7 @@ p {
 }
 #right {
   width: 600px;          /* RC width */
-  margin-right: -600px;  /* RC width */
+  /*margin-right: -600px;*/  /* RC width */
 }
 #footer {
   clear: both;
