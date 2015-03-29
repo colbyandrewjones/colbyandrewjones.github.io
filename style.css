@@ -3,6 +3,7 @@ html, body {
 	padding: 0;
 	margin: 0;
 	height: 100%; 	/* make footer stay at bottom of content or bottom of page, whichever comes last*/
+	min-width: 550px;      /* 2x LC width + RC width */
 }
 
 h1 {
@@ -19,21 +20,6 @@ p {
 	font-size: medium;
 	font-color: #000000;
 	word-wrap: break-word;
-}
-
-#holder{		/* make footer stay at bottom of content or bottom of page, whichever comes last*/
-    min-height: 100%;
-    position: relative;
-}
-
-#logocontainer
-{
-	margin: 0;
-	text-align: center;
-	padding: 0;
-	background-color: #4183D7;
-	height: 100px;
-	width: 100%;
 }
 
 #navcontainer ul
@@ -81,53 +67,36 @@ p {
 	
 }
 
-#body
-{
-	/*margin-left: 33%;
-	margin-right: 33%;*/
-	margin-bottom: 0%;
-	margin-top: 0%;
-	background-color: #ffffff;
-	padding-bottom: 100px; /* #footer height */ 	/* make footer stay at bottom of content or bottom of page, whichever comes last*/	
-	height: 100%;
-	width: 100%;
+#container {
+  padding-left: 200px;   /* LC width */
+  padding-right: 150px;  /* RC width */
 }
-
-#footer
-{
-	background-color: #4183D7;
-	padding: 0;
-	margin: 0;
-	height: 100px;
-	width: 100%;
-	position: absolute;	/* make footer stay at bottom of content or bottom of page, whichever comes last*/
-	bottom: 0;	/* make footer stay at bottom of content or bottom of page, whichever comes last*/
+#container .column {
+  position: relative;
+  float: left;
 }
-
-.wrap {
-	margin: 0%;
-	background-color: #ffffff;
-	height: 100%;
-	width: 100%;
-	border: 1px solid black;
+#center {
+  width: 100%;
 }
-
-.centeredImage {
-    text-align:center;
-    margin-top:0px;
-    margin-bottom:0px;
-    padding:0px;
-    max-width: 100%;
+#left {
+  width: 200px;          /* LC width */
+  right: 200px;          /* LC width */
+  margin-left: -100%;
+}
+#right {
+  width: 150px;          /* RC width */
+  margin-right: -150px;  /* RC width */
+}
+#footer {
+  clear: both;
+}
+/*** IE6 Fix ***/
+* html #left {
+  left: 150px;           /* RC width */
 }
 
 @media screen and (max-width: 1000px) {
-	/* applies only if the screen is narrower than 500px */
-	#body
-	{
-		margin-left: 0%;
-		margin-right:0%;
-		height: 100%;
-	}
+	/* applies only if the screen is narrower than 1000px */
 	
 	p
 	{
@@ -135,14 +104,6 @@ p {
 		font: arial;
 		font-size: large;
 		word-wrap: break-word;		
-	}
-	
-	.centeredImage {
-		 text-align:center;
-		 margin-top:0px;
-		 margin-bottom:0px;
-		 padding:0px;
-		 max-width: 100%;
 	}
 	
 }
