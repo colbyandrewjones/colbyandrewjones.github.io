@@ -69,13 +69,18 @@ p {
 
 #container{
 	width: 100%;
+	overflow: hidden;
+}
+#container .column {
+  padding-bottom: 20010px;  /* X + padding-bottom */
+  margin-bottom: -20000px;  /* X */
 }
 #left {
-	width: 49%;
+	width: 33%;
 	float: left;
 }
 #right {
-	width: 49%;
+	width: 66%;
 	float: right;
 }
 #footer {
