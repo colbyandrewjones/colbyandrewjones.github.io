@@ -48,6 +48,7 @@ p {
 	margin-left: 0;
 	margin-right: 0%;
 	font: arial;
+	vertical-align: center;
 }
 #navcontainer ul li {
 	display: inline;
