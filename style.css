@@ -66,6 +66,10 @@ p {
 	
 }
 
+
+#header {
+	height: 100px;
+}
 #container{
 	width: 100%;
 	overflow: hidden;
@@ -88,6 +92,7 @@ p {
   clear: both;
   background-color: #4183D7;
   position: relative;
+  height: 100px;
 }
 
 
