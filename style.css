@@ -21,6 +21,11 @@ p {
 	word-wrap: break-word;
 }
 
+#logocontainer {
+	float: left;
+	height: 100px;
+	width: 500px;
+}
 #navcontainer ul
 {
 	margin-top: 0%;
@@ -33,6 +38,7 @@ p {
 	margin-left: 0;
 	margin-right: 0%;
 	font: arial;
+	float: right;
 
 }
 
