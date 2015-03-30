@@ -68,14 +68,15 @@ p {
 }
 
 #container{
-	float: left;
 	width: 100%;
 }
 #left {
-	width: 33%;	
+	width: 49%;
+	float: left;
 }
 #right {
-	width: 33%;
+	width: 49%;
+	float: right;
 }
 #footer {
   clear: both;
