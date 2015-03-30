@@ -67,25 +67,7 @@ p {
 	
 }
 
-#container {
-  padding-left: 100%;   /* LC width */
-  padding-right: 100%;  /* RC fullwidth + CC padding */
-  overflow: hidden;
-}
-#container .column {
-  position: relative;
-  float: left;
-  padding-bottom: 20010px;  /* X + padding-bottom */
-  margin-bottom: -20000px;  /* X */
-}
-#left {
-  width: 48%;
-  padding: 0 1%;
-}
-#right {
-  width: 48%;
-  padding: 0 1%;
-}
+
 #footer {
   clear: both;
   background-color: #4183D7;
