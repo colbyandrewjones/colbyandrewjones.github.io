@@ -3,7 +3,6 @@ html, body {
 	padding: 0;
 	margin: 0;
 	height: 100%; 	/* make footer stay at bottom of content or bottom of page, whichever comes last*/
-	min-width: 1440px;      /* 2x (LC fullwidth +CC padding) + RC fullwidth */
 }
 
 h1 {
@@ -88,22 +87,7 @@ p {
   background-color: #4183D7;
   position: relative;
 }
-/*** IE6 Fix ***/
-* html #left {
-  left: 600px;           /* RC width */
-}
-* html body {
-  overflow: hidden;
-}
-* html #footer-wrapper {
-  float: left;
-  position: relative;
-  width: 100%;
-  padding-bottom: 10010px;
-  margin-bottom: -10000px;
-  background: #fff;         /* Same as body 
-                               background */
-}
+
 
 @media screen and (max-width: 1000px) {
 	/* applies only if the screen is narrower than 1000px */
