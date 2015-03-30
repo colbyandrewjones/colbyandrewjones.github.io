@@ -21,35 +21,38 @@ p {
 	word-wrap: break-word;
 }
 
+#header {
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+}
 #logocontainer {
 	float: left;
 	height: 100px;
 	width: 500px;
+}
+#navcontainer {
+	float: right;
+	height: 100px;
 }
 #navcontainer ul
 {
 	margin-top: 0%;
 	padding: 0;
 	list-style-type: none;
-	/* text-align: center; */
 	background-color: #4183D7;
 	height: 100%;
 	width: 100%;
 	margin-left: 0;
 	margin-right: 0%;
 	font: arial;
-	float: right;
-
 }
-
 #navcontainer ul li {
 	display: inline;
 	font: arial;
 	height: 100%;
 	width: 100%;
-	
 }
-
 #navcontainer ul li a
 {
 	text-decoration: none;
@@ -58,7 +61,6 @@ p {
 	font: arial;
 	height: 100%;
 	width: 100%;
-
 }
 
 #navcontainer ul li a:hover
@@ -68,11 +70,7 @@ p {
 	height: 100%;
 	width: 100%;
 	font: arial;
-	
-	
 }
-
-
 
 #container{
 	width: 100%;
