@@ -67,7 +67,16 @@ p {
 	
 }
 
-
+#container{
+	float: left;
+	width: 100%;
+}
+#left {
+	width: 50%;	
+}
+#right {
+	width: 50%;
+}
 #footer {
   clear: both;
   background-color: #4183D7;
