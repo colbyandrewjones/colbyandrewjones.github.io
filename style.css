@@ -75,12 +75,12 @@ p {
   margin-bottom: -20000px;  /* X */
 }
 #left {
-	width: 33%;
+	width: 32%;
 	float: left;
 	margin: 10px;
 }
 #right {
-	width: 66%;
+	width: 65%;
 	float: right;
 	margin: 10px;
 }
