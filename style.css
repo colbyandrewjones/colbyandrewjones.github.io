@@ -77,10 +77,12 @@ p {
 #left {
 	width: 33%;
 	float: left;
+	margin: 10px;
 }
 #right {
 	width: 66%;
 	float: right;
+	margin: 10px;
 }
 #footer {
   clear: both;
