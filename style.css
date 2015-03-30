@@ -97,6 +97,8 @@ p {
   background-color: #4183D7;
   position: relative;
   height: 100px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 
