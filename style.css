@@ -68,8 +68,8 @@ p {
 }
 
 #container {
-  padding-left: 400px;   /* LC width */
-  padding-right: 640px;  /* RC fullwidth + CC padding */
+  padding-left: 100%;   /* LC width */
+  padding-right: 100%;  /* RC fullwidth + CC padding */
   overflow: hidden;
 }
 #container .column {
@@ -78,20 +78,13 @@ p {
   padding-bottom: 20010px;  /* X + padding-bottom */
   margin-bottom: -20000px;  /* X */
 }
-#center {
-  padding: 10px 20px;    /* CC padding */
-  width: 100%;
-}
 #left {
-  width: 380px;        /* LC fullwidth - padding */
-  padding: 0 10px;
-  right: 400px;        /* LC fullwidth */
-  margin-left: -100%;
+  width: 48%;
+  padding: 0 1%;
 }
 #right {
-  width: 580px;          /* RC width - 2x RC padding */
-  padding: 0 10px;       /* RC padding */
-  margin-right: -580px;  /* RC width */
+  width: 48%;
+  padding: 0 1%;
 }
 #footer {
   clear: both;
