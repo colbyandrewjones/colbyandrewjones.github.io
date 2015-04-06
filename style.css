@@ -84,19 +84,19 @@ p {
 #container .column {
   padding-bottom: 20010px;  /* X + padding-bottom */
   margin-bottom: -20000px;  /* X */
-  background-color: yellow;
+ 
 }
 #left {
 	width: 700px;
 	float: left;
 	margin: 10px;
-	background-color: orange;
+
 }
 #right {
 	width: 49%;
 	float: right;
 	margin: 10px;
-	background-color: red;
+	
 }
 #footer {
   clear: both;
