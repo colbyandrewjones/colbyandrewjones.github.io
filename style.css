@@ -86,12 +86,12 @@ p {
   margin-bottom: -20000px;  /* X */
 }
 #left {
-	width: 32%;
+	width: 49%;
 	float: left;
 	margin: 10px;
 }
 #right {
-	width: 65%;
+	width: 49%;
 	float: right;
 	margin: 10px;
 }
