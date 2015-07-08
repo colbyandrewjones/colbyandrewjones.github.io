@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<script language="javascript" src="GameAndPlayerRandomizerScript.js"></script>
+	<head>
+		<title>Game and Player Randomiser</title>
+		
+		<link rel="stylesheet" type="text/css" href="GameAndPlayerRandomizerStyleSheet.css">
+	</head>
+
+	<body onload="readCookie(0)">
+		<div id="right"></div>
+		<div id="left"></div>
+		<h1 id="message"><u>GAMES</u></h1>
+		<div id="errorMessage"></div>
+		<form id="gameForm" ACTION="" METHOD="GET" class="input">
+			Title: <input type="text" id="namebox" value="" required></input>
+			<br/>
+			<br/>
+			Rules: <input type="text" id="rulesbox" size=50></input>
+			<br/>
+			<br/>
+			Minimum Number of Players: <input type="number" id="minPlayer" value=1></input>
+			<br/>
+			<br/>
+			Maximum Number of Players: <input type="number" id="maxPlayer" value=1></input>
+			<br/>
+			<br/>
+			Time Limit: <input type="number" id="timerA" value=5> Minutes</input>
+		</form>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<button type="button" onclick="addGame()" class="bigbutton">Add</button>
+		<button type="button" onclick="removeGame()" class="bigbutton">Remove</button>
+		<br/>
+		<br/>
+		<button type="button" onclick="showGames()" class="bigbutton">Show All Games</button>
+		<br/>
+		<br/>
+		<!--<button type="button" onclick="clearGames()">Clear All Games</button>-->
+		<button type="button" onclick="populateGames()" class="bigbutton">Populate Games</button>
+		<br/>
+		<br/>
+		<button type="button" onclick="loadPage(0)" class="bigbutton">Done</button>
+		
+		
+		
+	</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<script language="javascript" src="GameAndPlayerRandomizerScript.js"></script>
+	<head>
+		<title>Game and Player Randomiser</title></title>
+		
+		<link rel="stylesheet" type="text/css" href="GameAndPlayerRandomizerStyleSheet.css">
+	</head>
+
+	<body onload="readCookie(0)">
+		
+		<div id="right"></div>
+		<div id="left"></div>
+		<h1 id="message"><u>PLAYERS</u></h1>
+		<div id="errorMessage"></div>
+		<br/>
+		
+		<form class="input" id="playerInput">
+			First Name: <input type="text" id="firstnamebox" required></input>
+			<br />
+		</form>
+		<br/>
+		<br/>
+		<form class="input" id="playerInput">
+			Last Name: <input type="text" id="lastnamebox" required></input>
+			<br />
+		</form>
+		
+		<br />
+		<br/>
+		<br/>
+		<br/>
+		<button type="button" onclick="addPlayer()" class="bigbutton">Add</button>
+		<button type="button" onclick="removePlayer()" class="bigbutton">Remove</button>
+		<br />
+		<br/>
+		<button type="button" onclick="showPlayers()" class="bigbutton">Show All Players</button>
+		<br/>
+		<br />
+		<button type="button" onclick="loadPage(0)" class="bigbutton">Done</button>
+		<br />
+		<!--<button type="button" onclick="clearPlayers()">Clear All Players</button>-->
+		<!--<button type="button" onclick="populatePlayers()" class="bigbutton">Populate Players</button>-->
+		
+		
+		
+		
+	</body>
+</html>

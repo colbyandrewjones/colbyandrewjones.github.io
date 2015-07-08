@@ -1,0 +1,65 @@
+
+
+/* HALLOWEEN THEME */
+body {
+	background-color: #ff3300;
+	text-align: center;
+}
+
+div {
+  width: 50%;
+  word-break: normal;
+  white-space: normal;
+  margin-left: auto ;
+  margin-right: auto ;
+  font-size: 40px;
+}
+
+.bigbutton{
+	width: 200px;
+	height: 60px;
+}
+
+#left, #right {
+	background: #000000;
+	position: fixed;
+	width: 25%;
+	top: 0; bottom: 0;
+}
+
+#left { left: 0; }
+#right { right: 0;}
+
+#timer{
+	color: #000000;
+	font-size: 200px;
+}
+
+
+
+/* NORMAL THEME */
+/*body {
+	background-color: #a5ebff;
+	text-align: center;
+}
+
+#left, #right {
+	background: #00ccff;
+	position: fixed;
+	width: 25%;
+	top: 0; bottom: 0;
+}
+
+#left { left: 0; }
+#right { right: 0;}
+
+#timer{
+	color: #ffffff;
+	font-size: 200px;
+}
+
+/*.input {
+	text-align: left;
+}*/
+
+*/
