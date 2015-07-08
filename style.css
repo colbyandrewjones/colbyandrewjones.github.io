@@ -16,98 +16,108 @@ h1 {
 p {
 	text-align: center;
 	font: arial;
-	
+	font-size: medium;
+	font-color: #000000;
+	word-wrap: break-word;
 }
 
-#holder{		/* make footer stay at bottom of content or bottom of page, whichever comes last*/
-    min-height: 100%;
-    position: relative;
-}
-
-#logocontainer
-{
-	margin: 0;
-	text-align: center;
-	padding: 0;
-	background-color: #4183D7;
-	height: 100px;
+#header {
 	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	background-color: #4183D7;
 }
-
+#logocontainer {
+	float: left;
+	height: 100px;
+	width: 500px;
+}
+#navcontainer {
+	float: right;
+	height: 100px;
+	vertical-align: middle;
+}
 #navcontainer ul
 {
 	margin-top: 0%;
 	padding: 0;
 	list-style-type: none;
-	text-align: center;
 	background-color: #4183D7;
 	height: 100%;
 	width: 100%;
 	margin-left: 0;
 	margin-right: 0%;
 	font: arial;
-
 }
-
 #navcontainer ul li {
 	display: inline;
 	font: arial;
-	
+	height: 100%;
+	width: 100%;
 }
-
 #navcontainer ul li a
 {
 	text-decoration: none;
 	padding: .2em 1em;
 	color: #ffffff;
 	font: arial;
-	
-
+	height: 100%;
+	width: 100%;
 }
 
 #navcontainer ul li a:hover
 {
-	color: #000000;
+	color: #4183D7;
 	background-color: #ffffff;
 	height: 100%;
+	width: 100%;
 	font: arial;
-	
-	
 }
 
-#body
-{
-	margin-left: 33%;
-	margin-right: 33%;
-	margin-bottom: 0%;
-	margin-top: 0%;
-	background-color: #ffffff;
-	padding-bottom: 100px; /* #footer height */ 	/* make footer stay at bottom of content or bottom of page, whichever comes last*/
-	height: 100%;
-}
-
-#footer
-{
-	background-color: #4183D7;
-	padding: 0;
-	margin: 0;
-	height: 100px;
+#container{
 	width: 100%;
-	position: absolute;	/* make footer stay at bottom of content or bottom of page, whichever comes last*/
-	bottom: 0;	/* make footer stay at bottom of content or bottom of page, whichever comes last*/
-}
-
-.wrap {
-	margin: 0%;
-	background-color: #ffffff;
+	overflow: hidden;
 	height: 100%;
-	width: 100%;
-	border: 1px solid black;
+	min-height: 100%;
+}
+#container .column {
+  padding-bottom: 20010px;  /* X + padding-bottom */
+  margin-bottom: -20000px;  /* X */
+ 
+}
+#left {
+	width: 700px;
+	float: left;
+	margin: 10px;
+
+}
+#right {
+	width: 49%;
+	float: right;
+	margin: 10px;
+	
+}
+#footer {
+  clear: both;
+  background-color: #4183D7;
+  position: relative;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
 }
 
-.centeredImage {
-    text-align:center;
-    margin-top:0px;
-    margin-bottom:0px;
-    padding:0px;
+
+
+@media screen and (max-width: 1000px) {
+	/* applies only if the screen is narrower than 1000px */
+	
+	p
+	{
+		text-align: center;
+		font: arial;
+		font-size: large;
+		word-wrap: break-word;		
+	}
+	
 }
