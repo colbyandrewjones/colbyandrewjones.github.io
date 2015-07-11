@@ -1,8 +1,8 @@
 
 
-/* HALLOWEEN THEME */
+
 body {
-	background-color: #ff3300;
+	background-color: #ffffff;
 	text-align: center;
 }
 
@@ -21,7 +21,7 @@ div {
 }
 
 #left, #right {
-	background: #000000;
+	background: #4183D7;
 	position: fixed;
 	width: 25%;
 	top: 0; bottom: 0;
@@ -34,32 +34,3 @@ div {
 	color: #000000;
 	font-size: 200px;
 }
-
-
-
-/* NORMAL THEME */
-/*body {
-	background-color: #a5ebff;
-	text-align: center;
-}
-
-#left, #right {
-	background: #00ccff;
-	position: fixed;
-	width: 25%;
-	top: 0; bottom: 0;
-}
-
-#left { left: 0; }
-#right { right: 0;}
-
-#timer{
-	color: #ffffff;
-	font-size: 200px;
-}
-
-/*.input {
-	text-align: left;
-}*/
-
-*/
