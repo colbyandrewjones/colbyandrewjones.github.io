@@ -21,6 +21,13 @@ p {
 	word-wrap: break-word;
 }
 
+.project{
+	font: arial;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
 #header {
 	width: 100%;
 	height: 100px;
