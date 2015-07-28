@@ -109,8 +109,8 @@ p {
 
 
 
-@media screen and (max-width: 1000px) {
-	/* applies only if the screen is narrower than 1000px */
+@media screen and (max-width: 900px) {
+	/* applies only if the screen is narrower than 900px */
 	
 	p
 	{
