@@ -132,17 +132,26 @@ p {
 	}
 	
 	#left {
-		width: 100%;
+		width: 100%px;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-bottom: 0px; /* taken care of by footer*/
+		padding-top: 0px; /* taken care of by header*/
 		float: none;
-		margin: 10px;
+		margin: 0px;
+		border-width: 0px;
 		text-align: center;
 	}
 	#right {
-		width: 100%;
+		width: 100%px;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-bottom: 0px; /* taken care of by footer*/
+		padding-top: 0px; /* taken care of by header*/
 		float: none;
-		margin: 10px;
+		margin: 0px;
+		border-width: 0px;
 		text-align: center;
-	
 	}
 	
 }
