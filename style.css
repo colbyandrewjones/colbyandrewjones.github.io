@@ -87,21 +87,32 @@ p {
  
 }
 #left {
-	width: 49%;
+	width: 650px;
+	padding-right: 5px;
+	padding-left: 10px;
+	padding-bottom: 0px; /* taken care of by footer*/
+	padding-top: 0px; /* taken care of by header*/
 	float: left;
-	margin: 10px;
+	margin: 0px;
+	border-width: 0px;
+	text-align: center;
 
 }
 #right {
-	width: 49%;
+	width: 650px;
+	padding-right: 10px;
+	padding-left: 5px;
+	padding-bottom: 0px; /* taken care of by footer*/
+	padding-top: 0px; /* taken care of by header*/
 	float: right;
-	margin: 10px;
-	
+	margin: 0px;
+	border-width: 0px;
+	text-align: center;
 }
 #footer {
   clear: both;
   background-color: #4183D7;
-  /*position: relative;*/
+  position: relative;
   height: 50px;
   text-align: center;
   padding-top: 10px;
